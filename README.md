@@ -5,7 +5,7 @@ The incurable mental illness known as "Italian fixed-term research contract" isn
 
 L'umiliazione di partecipare a un concorso per RTD in Italia è solo inasprita dal disagio di dover compilare documenti di testo scritti in formati dichiarati cerebralmente morti nel 1995. 
 
-Molto meglio un formato pdf customizzabile (la burocrazia non sarebbe la condanna a morte dell'intelletto che tutti conosciamo, se la sua prassi non fosse sottilmente diversa da ateneo ad ateneo). All'ennesima volta in cui ho dovuto compiere la stessa operazione con gli stessi problemi tecnici, mi sono stancato e ho deciso di rifare tutto daccapo _una volta sola_.
+Molto meglio un formato pdf customizzabile (la burocrazia non sarebbe l'inferno che tutti conosciamo, se la sua prassi non fosse sottilmente diversa da ateneo ad ateneo). All'ennesima volta in cui ho dovuto compiere la stessa operazione con gli stessi problemi tecnici, mi sono stancato e ho deciso di rifare tutto daccapo _una volta sola_.
 
 # Come si usa konkur
 
