@@ -1,23 +1,26 @@
 \usepackage{ hyperref
            , xcolor
            , graphicx
-           , times
            , fancyhdr
            , enumitem}
 
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \def\DefaultHeightofText{.75\baselineskip}
 
-\usepackage[left=2cm,right=2cm,top=3cm,bottom=4cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 
-\hypersetup{colorlinks=true}
+\hypersetup{ colorlinks=true
+           , linkcolor=black}
 
 \setlist[itemize,enumerate]{itemsep=0pt, topsep=3pt}
 
 \rhead{Allegato A}
 \cfoot{}
 \pagestyle{fancy}
-\newcommand{\myTextField}[2][2cm]{
+\newcommand{\myTextField}[2][3cm]{
  \TextField[ borderwidth=0
            , bordercolor=gray!10
            , backgroundcolor=gray!10
