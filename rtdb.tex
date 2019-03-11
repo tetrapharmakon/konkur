@@ -4,21 +4,7 @@
 
 \begin{document}
 \begin{Form}
-\begin{minipage}{.5\textwidth}
- Modello di domanda per l'ammissione	\\[3pt]
- alla  procedura di selezione pubblica per\\[3pt]
- \titleTextField{}\\[3pt]
- \titleTextField{}\\[3pt]
-\end{minipage}
-
-\begin{flushright}
-\begin{minipage}{.45\textwidth}
- \flushright Al Magnifico Rettore
- \flushright \myTextField[.6\textwidth]{dell'università di}
- \flushright \myTextField[.9\textwidth]{}
- \flushright \myTextField[.9\textwidth]{}%
-\end{minipage}
-\end{flushright}
+\input{intestazione.tex}
 
 \myTextField[.5cm]{} sottoscritt\myTextField[.5cm]{} \myTextField[4cm]{}, 
 nato/a a \myTextField{}, il \myTextField{}, residente a \myTextField{} 
@@ -54,11 +40,7 @@ impiego statale, ai sensi dell'art. 127, primo comma, lettera d) del decreto
 del Presidente della Repubblica 10.01.1957, n. 3;
 \item di eleggere domicilio, agli effetti della selezione, in 
 \begin{center}
-\begin{tabular}{c}
- \noindent\myTextField[4cm]{}\\
- C.A.P. \myTextField[3cm]{}\\
- via \myTextField[3.6cm]{}
-\end{tabular}
+ \titleTextField[6cm]{}%\\
 \end{center} 
 e-mail \myTextField[4cm]{}, PEC \myTextField[4cm]{}, telefono \myTextField{}, 
 riservandosi di comunicare tempestivamente ogni eventuale variazione dello stesso;
