@@ -28,8 +28,9 @@
  \TextField[ borderwidth=0
            , bordercolor=gray!70
            , backgroundcolor=gray!10
-           , width=\textwidth
-           ]{ }
+           , width=#1
+           , multiline=true
+           ]{#2}
 }
 \newcommand{\sign}[2][.175]{%
  \begin{flushright} 
