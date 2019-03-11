@@ -1,0 +1,37 @@
+\usepackage{ hyperref
+           , xcolor
+           , graphicx
+           , times
+           , fancyhdr
+           , enumitem}
+
+\def\DefaultHeightofText{.75\baselineskip}
+
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=4cm]{geometry}
+
+\hypersetup{colorlinks=true}
+
+\setlist[itemize,enumerate]{itemsep=0pt, topsep=3pt}
+
+\rhead{Allegato A}
+\cfoot{}
+\pagestyle{fancy}
+\newcommand{\myTextField}[2][2cm]{
+ \TextField[ borderwidth=0
+           , bordercolor=gray!10
+           , backgroundcolor=gray!10
+           , width=#1
+           ]{#2}
+}
+\newcommand{\titleTextField}[2][\textwidth]{
+ \TextField[ borderwidth=0
+           , bordercolor=gray!70
+           , backgroundcolor=gray!10
+           , width=\textwidth
+           ]{ }
+}
+\newcommand{\sign}[2][.175]{%
+ \begin{flushright} 
+ \includegraphics[scale=#1]{#2}
+ \end{flushright}%
+ }
