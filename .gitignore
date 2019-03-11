@@ -12,6 +12,7 @@
 *.cb2
 .*.lb
 *.png 
+MAKE
 
 ## Intermediate documents:
 *.dvi
