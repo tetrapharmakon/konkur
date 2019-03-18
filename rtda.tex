@@ -3,7 +3,10 @@
 \input{layout}
 
 \begin{document}
+\pagestyle{styleD}
+
 \begin{Form}
+ \pagestyle{styleA}
 \input{intestazione.tex}
 
 %==============================================================================
@@ -13,10 +16,28 @@
 %==============================================================================
 
 \input{dichiarazioni.tex}
+\input{dichiarazioni2bis.tex}
 
+\vspace{\fill}
+\input{chiosa.tex}
+\newpage
+\pagestyle{styleB}
 %==============================================================================
-
 \input{pubblicazioni.tex}
+
+\vspace{\fill}
+\input{chiosa.tex}
+\newpage
+\pagestyle{styleC}
+%==============================================================================
+\input{DSAN1.tex}
+
+\vspace{\fill}
+\input{chiosa.tex}
+\newpage
+\pagestyle{styleD}
+%==============================================================================
+\input{DSAN2.tex}
 
 \vspace{\fill}
 \input{chiosa.tex}

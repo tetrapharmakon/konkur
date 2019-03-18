@@ -1,12 +1,12 @@
 \usepackage{ hyperref
-           , xcolor
-           , graphicx
-           , fancyhdr
-           , tabularx
-           , enumitem}
+ , xcolor
+ , graphicx
+ , fancyhdr
+ , tabularx
+ , enumitem}
 
 \usepackage[scaled]{helvet}
-\renewcommand\familydefault{\sfdefault} 
+\renewcommand\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \def\DefaultHeightofText{.75\baselineskip}
@@ -14,30 +14,37 @@
 \usepackage[left=3cm,right=3cm,top=4cm,bottom=4cm]{geometry}
 
 \hypersetup{ colorlinks=true
-           , linkcolor=black}
+ , linkcolor=black}
 
 \setlist[itemize,enumerate]{itemsep=0pt, topsep=3pt}
 
-\rhead{Allegato A}
-\cfoot{}
-\pagestyle{fancy}
+
 \newcommand{\myTextField}[2][3cm]{
  \TextField[ borderwidth=0
-           , bordercolor=gray!10
-           , backgroundcolor=gray!10
-           , width=#1
-           ]{#2}
+  , bordercolor=gray!10
+  , backgroundcolor=gray!10
+  , width=#1
+ ]{#2}
 }
 \newcommand{\titleTextField}[2][\textwidth]{
  \TextField[ borderwidth=0
-           , bordercolor=gray!70
-           , backgroundcolor=gray!10
-           , width=#1
-           , multiline=true
-           ]{#2}
+  , bordercolor=gray!70
+  , backgroundcolor=gray!10
+  , width=#1
+  , multiline=true
+ ]{#2}
 }
 \newcommand{\sign}[2][.175]{%
- \begin{flushright} 
- \includegraphics[scale=#1]{#2}
+ \begin{flushright}
+  \includegraphics[scale=#1]{#2}
  \end{flushright}%
- }
+}
+
+\newcommand{\newAttachStyle}[3][R]{
+ \fancypagestyle{#2}{
+  \fancyhead[#1]{\sc #3}
+ }}
+\newAttachStyle{styleA}{Allegato A}
+\newAttachStyle{styleB}{Allegato B}
+\newAttachStyle{styleC}{Allegato C}
+\newAttachStyle{styleD}{Allegato D}
